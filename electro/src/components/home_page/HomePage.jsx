@@ -1,15 +1,15 @@
 import React from "react";
-import ACLogo from "../assets/ac.svg";
-import Gryser from "../assets/geyser.webp";
-import light from "../assets/light.webp";
-import logo1 from "../assets/logo1.jpg";
-import Electrical_Wiring_Logo from "../assets/home-and-wiring.svg";
-import plumbing from "../assets/plumbing.webp";
+import ACLogo from "../../assets/ac.svg";
+import Gryser from "../../assets/geyser.webp";
+import light from "../../assets/light.webp";
+import logo1 from "../../assets/logo1.jpg";
+import Electrical_Wiring_Logo from "../../assets/home-and-wiring.svg";
+import plumbing from "../../assets/plumbing.webp";
 import "./HomePage.css";
-import OurServices from "./OurServices";
+import OurServices from "../services/OurServices";
 
 import { Link } from "react-router-dom";
-import Navbar from "./navbar";
+import Navbar from "../navbar/Navbar";
 
 const HomePage = () => {
   return (

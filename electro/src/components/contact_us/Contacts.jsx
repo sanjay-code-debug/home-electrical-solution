@@ -1,7 +1,7 @@
 import React from 'react';
-import call from '../assets/call.png'
-import mail from '../assets/mail.png'
-import whatsApp from '../assets/whatsApp.png'
+import call from '../../assets/call.png'
+import mail from '../../assets/mail.png'
+import whatsApp from '../../assets/whatsApp.png'
 import { Link } from 'react-router-dom';
 import "./Contacts.css";
 

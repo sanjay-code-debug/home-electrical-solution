@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './OurServices.css';
-import logo from '../assets/logo1.jpg';
+import logo from '../../assets/logo1.jpg';
 import { Link } from 'react-router-dom';
 
 const OurServices = () => {

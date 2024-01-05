@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // If you're using React Router
-import search from "../assets/SearchLogo.png";
-import bar3 from "../assets/3bar.svg";
-import x from "../assets/x.svg";
+import search from "../../assets/SearchLogo.png";
+import bar3 from "../../assets/3bar.svg";
+import x from "../../assets/x.svg";
 import "./Navbar.css";
 
 const Navbar = () => {
