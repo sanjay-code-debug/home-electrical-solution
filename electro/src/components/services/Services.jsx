@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import "./Services.css";
-import Contacts from "./Contacts";
-import Feedback from "./Feedback";
+import Contacts from "../contact_us/Contacts";
+import Feedback from "../feedback/Feedback";
 
 const Services = () => {
   const [activeSection, setActiveSection] = useState(null);
