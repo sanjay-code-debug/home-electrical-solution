@@ -1,0 +1,54 @@
+.btn_container
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6rem;  
+    flex-direction: column;
+}
+.btn
+{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: linear-gradient(to right, rgba(246, 90, 90, 0.715) ,rgba(89, 89, 243, 0.753));
+    color: white;
+    margin: 0px 7px;
+}
+button:hover
+{
+    color: greenyellow;
+    scale: 1.05;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.751) ,rgba(0, 0, 255, 0.75));
+}
+
+.btn_box
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.contact_img:hover
+{
+  scale: 1.2;
+  animation: shakeing 1s ease-in-out infinite ;
+}
+.contact_img
+{
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+    margin: 0px 7px;
+    
+}
+/* animation for shaking the  call, mail, whatsapp images */
+@keyframes shakeing {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-5px, 5px); }
+    50% { transform: translate(5px, -5px); }
+    75% { transform: translate(-5px, 5px); }
+    100% { transform: translate(0, 0); }
+}
