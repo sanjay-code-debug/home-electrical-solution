@@ -7,6 +7,7 @@ import Electrical_Wiring_Logo from "../../assets/home-and-wiring.svg";
 import plumbing from "../../assets/plumbing.webp";
 import "./HomePage.css";
 import OurServices from "../services/OurServices";
+import About from "../about_page/About";
 
 import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
@@ -119,6 +120,7 @@ const HomePage = () => {
     <>
    <Navbar/>
    <OurServices/>
+   <About/>
    
     </>
   );

@@ -1,4 +1,4 @@
- /* /* @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Kablammo&family=Rubik+Lines&display=swap');
+/* /* @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Kablammo&family=Rubik+Lines&display=swap');
 body
 {
     font-family: Rubik+Lines;
@@ -113,68 +113,5 @@ body
 }
   
 /* new design started from here */
-.about
-{
-    background-image: url('../assets/aboutBg.jpg');
-    background-size: cover;
-    background-position-x: center;
-    
-}
-.about_heading
-{    
-    text-align: center;
-    color: red;
-    
-    && h1
-    {
-        font-size: 40px;
-        font-weight: 900;
-        margin: 0px;
-        padding: 20px 20px;
-        
-    }
-    .about_para
-    {
-        width: 50%;
-        font-size: 25px;
-        font-weight: 500;
-        color: black;
-        text-align: center;
-        margin: auto;
-        padding: 30px;
 
-    }
-    
-}
-#light
-{
-    color: red;
-    
-}
 /* for mobile view */
-@media screen and (max-width: 1040px)
-{ 
-    .about
-    {
-        background-color: greenyellow;
-        background-image: url('../assets/aboutMobilebg.jpg');
-        background-size: cover;
-    }
-    .about_para
-    {
-        background-color: whitesmoke;
-        border: 1px solid black;
-        box-shadow: 10px 10px 10px 10px rgb(71, 66, 66);
-        width: 80% !important;
-        opacity: 0.7;
-        text-shadow: 10px 10px 5px gray;
-
-    }
-    /* media queary for heading */
-    .continer
-    {
-        margin: 20px 5px 30px 5px;
-
-    }
-    
-} 
