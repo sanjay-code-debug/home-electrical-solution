@@ -5,6 +5,7 @@ import "./OurServices.css";
 import logo from "../../assets/logo1.jpg";
 import { Link } from "react-router-dom";
 import x from "../../assets/x.svg";
+import contact from "../../assets/contact.svg";
 
 const OurServices = () => {
   const modalData = [
@@ -17,11 +18,10 @@ const OurServices = () => {
   ];
 
   const [popUp, setPopUp] = useState(false);
-  console.log(popUp)
+  console.log(popUp);
 
   // Function to open modal with specific content
   const openPopUp = () => {
-    
     setPopUp(!popUp);
     console.log(popUp);
   };
@@ -70,16 +70,76 @@ const OurServices = () => {
       </div>
       {/* render modal if it is open */}
       {/* <div className={`modal ${popUp ? "open" : ""}`}> */}
-      <div className={` popUp ${popUp ? "modal1" : "close_pop"}`}>
-        <div className="modal-content">
-          <img src={openPopUp ? x : " "} alt="" onClick={closePopUp} />
-          <span className="close" onClick={closePopUp}>
-            &times;
-          </span>
-          <h1>hdfhjfdbhsbs</h1>
+      <div className="popUp_bg">
+        <div className={` popUp ${popUp ? "modal1" : "close_pop"}`}>
+          <div className="modal-content">
+            <img src={openPopUp ? x : " "} alt="" onClick={closePopUp} />
+
+            <h1>Contact as</h1>
+            <div className="data_container">
+
+               <Link to="/services">
+               <div className="data">
+                <img src={logo} alt="" />
+                <h3>plumber</h3>
+              </div>
+               </Link>
+
+               <Link to="/services">
+               <div className="data">
+                <img src={logo} alt="" />
+                <h3>plumber</h3>
+              </div>
+               </Link>
+
+               <Link to="/services">
+               <div className="data">
+                <img src={logo} alt="" />
+                <h3>plumber</h3>
+              </div>
+               </Link>
+
+               <Link to="/services">
+               <div className="data">
+                <img src={logo} alt="" />
+                <h3>plumber</h3>
+              </div>
+               </Link>
+
+               <Link to="/services">
+               <div className="data">
+                <img src={logo} alt="" />
+                <h3>plumber</h3>
+              </div>
+               </Link>
+
+               <Link to="/services">
+               <div className="data">
+                <img src={logo} alt="" />
+                <h3>plumber</h3>
+              </div>
+               </Link>
+              
+
+              
+            </div>
+
+            
+          </div>
+          
+          <div className="blob"></div>
+          <div class="tooltip-container">
+              <span class="tooltip">Book now</span>
+              <div className="contact_container">
+                <img id="Calque_1" viewBox="0 0 377 270" src={contact} alt="" />
+              </div>
+              <span class="text">Click </span>
+            </div>
         </div>
-        <div className="blob"></div>
+        
       </div>
+      
+      
     </div>
   );
 };
