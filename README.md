@@ -7,7 +7,7 @@ Step to setup the project
 
    - git clone https://github.com/sanjay-code-debug/home-electrical-solution.git
 
-   - cd home-electrical-solution/electro
+   - cd home-electrical-solution/
 
    - npm install
 
